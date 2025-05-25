@@ -1,0 +1,30 @@
+# Entornos virtuales
+venv/
+.env/
+.envrc
+.venv/
+__pycache__/
+*.pyc
+
+# Archivos de configuración de Jupyter
+.ipynb_checkpoints/
+
+# Salidas grandes en los notebooks (si usas herramientas para limpiarlos)
+*.nbconvert.ipynb
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y datos temporales
+*.log
+*.tmp
+
+# Configuraciones de VSCode o JupyterLab (si usas)
+.vscode/
+.jupyter/
+
+# Datos o resultados generados (opcional)
+data/
+results/
+outputs/
